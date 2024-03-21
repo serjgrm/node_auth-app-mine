@@ -10,5 +10,8 @@ export const User = client.define('user', {
   password: {
     type: DataTypes.STRING,
     allowNull: false,
+  },
+  accessToken: {
+    type: DataTypes.STRING,
   }
 })
